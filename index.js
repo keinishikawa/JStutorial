@@ -34,5 +34,7 @@ const unko2 = {
 };
 
 console.log(window.innerHeight);
-window.alert("unko");
-console.log(document.getElementsByTagName("button")[0]);
+// window.alert("unko");
+document.getElementsByTagName("button")[0].addEventListener("click", () => {
+  window.alert("unko");
+});
